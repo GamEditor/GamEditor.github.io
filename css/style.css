@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(42, 52, 61);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#githubrepositories {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+}
+
+#builds {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 0;
+}
