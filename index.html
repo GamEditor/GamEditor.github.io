@@ -6,42 +6,52 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation-menu.css">
+    <script src="js/includeHTML.js"></script>
 </head>
 
 <body>
+    <!-- navigation menu -->
+    <div include-html="include/navigation-menu.html"></div>
+    <script>
+        includeHTML();
+    </script>
+
     <div>
-        <div id="githubrepositories">
-            <p>Github Repositories</p>
-            <ul>
+        <div class="categories">
+            Github Repositories<br>
+
+            <ul class="no-bulet">
                 Game projects:
                 <li><a href="https://github.com/GamEditor/2048-Android" target="blank">2048 Android</a> (java)</li>
                 <li><a href="https://github.com/GamEditor/Ballz-Brick-Breaker-Unity" target="blank">Ballz (Brick Breaker)</a> (Unity)</li>
                 <li><a href="https://github.com/GamEditor/Find-Hidden-Objects" target="blank">Find Hidden Objects</a> (Unity)</li>
                 <li><a href="https://github.com/GamEditor/Tile-Puzzle-Unity" target="blank">Tile Puzzle</a> (Unity)</li>
                 <li><a href="https://github.com/GamEditor/Penalty-Android-VR-Unity" target="blank">Penalty Android VR</a> (Unity)</li>
-                
+
                 <br>
                 Unity projects:
                 <li><a href="https://github.com/GamEditor/Unity-Mesh-Editor" target="blank">Unity Mesh Editor</a> (Unity)</li>
                 <li><a href="https://github.com/GamEditor/8-Puzzle-Solver-Unity" target="blank">8 Puzzle Solver</a> (Unity)</li>
                 <li><a href="https://github.com/GamEditor/Sort-Algorithms-Visualizer" target="blank">Sort algoritms visualization</a> (Unity)</li>
-                
-                
+
                 <br>
                 Web (application and services):
                 <li><a href="https://github.com/GamEditor/Node.js-FileManager" target="blank">Node.js FileManager</a> (javascript, html, css)</li>
-                <li><a href="https://github.com/GamEditor/Telegram-Game-Bot" target="blank">Telegram Game Bot</a> (C#)</li>
-                
+                <li><a href="https://github.com/GamEditor/Telegram-Game-Bot" target="blank">Telegram Game Bot</a> (C#, Service)</li>
+
                 <br>
                 Windows applications:
                 <li><a href="https://github.com/GamEditor/Library-Management-System" target="blank">Library Management System</a> (C#)</li>
             </ul>
         </div>
 
-        <div id="builds">
-            <p>Builds</p>
-            <ul>
-                <li><a href="builds/sort-algorithms-visualizer/">Sort algoritms visualization</a></li>
+        <div class="categories">
+            Builds<br>
+
+            <ul class="no-bulet builds">
+                    Unity projects:<br>
+                <li><a href="builds/sort-algorithms-visualizer/">Sort algoritms visualization</a> (WebGL)</li>
             </ul>
         </div>
     </div>

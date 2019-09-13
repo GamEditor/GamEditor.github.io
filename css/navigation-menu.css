@@ -1,0 +1,26 @@
+.navigation-menu-item {
+    color: white;
+}
+
+ul.no-bullet {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(56, 68, 79);
+}
+
+li.navigation-menu-item {
+    float: left;
+}
+
+li.navigation-menu-item a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li.navigation-menu-item a:hover {
+    background-color: rgb(79, 79, 56);
+}
